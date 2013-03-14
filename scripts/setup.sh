@@ -20,6 +20,6 @@ fi
 
 test -f ~/.vimrc && mv ~/.vimrc ~/.vimrc.bak
 
-ln -s ~/.vim/bundle/vim-mpilquist/vimrc ~/.vimrc
+ln -s ~/.vim/bundle/vim-cdadia/vimrc ~/.vimrc
 
 vi +BundleInstall +qall
