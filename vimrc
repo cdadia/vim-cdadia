@@ -35,4 +35,7 @@ Bundle 'derekwyatt/vim-sbt'
 Bundle 'Shougo/neocomplcache'
 Bundle 'majutsushi/tagbar'
 
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-abolish'
+
 filetype plugin indent on
