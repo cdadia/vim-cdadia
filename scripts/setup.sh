@@ -14,8 +14,8 @@ if ! [[ -d ~/.vim/bundle/vundle ]]; then
   git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 fi
 
-if ! [[ -d ~/.vim/bundle/vim-mpilquist ]]; then
-  git clone ${PREFIX}mpilquist/vim-mpilquist.git ~/.vim/bundle/vim-mpilquist
+if ! [[ -d ~/.vim/bundle/vim-cdadia ]]; then
+  git clone ${PREFIX}cdadia/vim-cdadia.git ~/.vim/bundle/vim-cdadia
 fi
 
 test -f ~/.vimrc && mv ~/.vimrc ~/.vimrc.bak
