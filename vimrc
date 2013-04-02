@@ -11,9 +11,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'mpilquist/vim-scala'
-Bundle 'msmorgan/vim-flex'
 
-Bundle 'closetag.vim'
 Bundle 'sjl/gundo.vim'
 Bundle 'VimClojure'
 
@@ -37,5 +35,10 @@ Bundle 'majutsushi/tagbar'
 
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-abolish'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-dispatch'
+Bundle 'tpope/vim-bundler'
+Bundle 'tpope/vim-rake'
+Bundle 'tpope/vim-endwise'
 
 filetype plugin indent on
