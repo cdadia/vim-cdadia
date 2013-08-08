@@ -89,8 +89,7 @@ set shortmess+=I
 let g:neocomplcache_enable_at_startup = 1
 
 " Highlight characters beyond 80
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+execute "set colorcolumn=" . join(range(81,335), ',')
 
 " F7 to call clean redundant Java imports and sort them
 function JavaImpClean()
