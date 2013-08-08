@@ -88,3 +88,10 @@ set shortmess+=I
 " Enable NeoComplCache
 let g:neocomplcache_enable_at_startup = 1
 
+" F7 to call clean redundant Java imports and sort them
+function JavaImpClean()
+     %!~/bin/clean_imports.sh %
+         :JavaImpSort
+         endfunction
+         :command JavaImpClean exec JavaImpClean()
+         :nnoremap <F7> :JavaImpClean<CR>
