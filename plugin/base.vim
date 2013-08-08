@@ -88,10 +88,14 @@ set shortmess+=I
 " Enable NeoComplCache
 let g:neocomplcache_enable_at_startup = 1
 
+" Highlight characters beyond 80
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
 " F7 to call clean redundant Java imports and sort them
 function JavaImpClean()
-     %!~/bin/clean_imports.sh %
-         :JavaImpSort
-         endfunction
-         :command JavaImpClean exec JavaImpClean()
-         :nnoremap <F7> :JavaImpClean<CR>
+  %!~/bin/clean_imports.sh %
+  :JavaImpSort
+endfunction
+:command JavaImpClean exec JavaImpClean()
+:nnoremap <F7> :JavaImpClean<CR>
