@@ -15,6 +15,7 @@ Bundle 'mpilquist/vim-scala'
 Bundle 'sjl/gundo.vim'
 Bundle 'VimClojure'
 
+Bundle 'cdadia/vim-cdadia'
 Bundle 'mpilquist/vim-mpilquist'
 
 Bundle 'Lokaltog/vim-powerline'
