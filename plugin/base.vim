@@ -90,11 +90,3 @@ let g:neocomplcache_enable_at_startup = 1
 
 " Highlight characters beyond 80
 execute "set colorcolumn=" . join(range(81,335), ',')
-
-" F7 to call clean redundant Java imports and sort them
-function JavaImpClean()
-  %!~/bin/clean_imports.sh %
-  :JavaImpSort
-endfunction
-:command JavaImpClean exec JavaImpClean()
-:nnoremap <F7> :JavaImpClean<CR>
