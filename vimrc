@@ -16,7 +16,6 @@ Bundle 'sjl/gundo.vim'
 Bundle 'VimClojure'
 
 Bundle 'mpilquist/vim-mpilquist'
-Bundle 'cdadia/vim-cdadia'
 
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/nerdcommenter'
@@ -42,4 +41,5 @@ Bundle 'tpope/vim-bundler'
 Bundle 'tpope/vim-rake'
 Bundle 'tpope/vim-endwise'
 
+Bundle 'cdadia/vim-cdadia'
 filetype plugin indent on
