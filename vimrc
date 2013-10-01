@@ -13,7 +13,8 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'mpilquist/vim-scala'
 
 Bundle 'sjl/gundo.vim'
-Bundle 'VimClojure'
+Bundle 'guns/vim-clojure-static'
+Bundle 'tpope/vim-fireplace'
 
 Bundle 'mpilquist/vim-mpilquist'
 
