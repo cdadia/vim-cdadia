@@ -14,8 +14,8 @@ Bundle 'mpilquist/vim-scala'
 
 Bundle 'sjl/gundo.vim'
 Bundle 'guns/vim-clojure-static'
-Bundle 'tpope/vim-fireplace'
 
+Bundle 'cdadia/vim-cdadia'
 Bundle 'mpilquist/vim-mpilquist'
 
 Bundle 'Lokaltog/vim-powerline'
@@ -40,7 +40,11 @@ Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-dispatch'
 Bundle 'tpope/vim-bundler'
 Bundle 'tpope/vim-rake'
-Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fireplace'
+Bundle 'tpope/vim-classpath'
+
+Bundle 'rizzatti/funcoo.vim'
+Bundle 'rizzatti/dash.vim'
 
 Bundle 'cdadia/vim-cdadia'
 filetype plugin indent on
