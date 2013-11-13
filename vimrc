@@ -42,9 +42,10 @@ Bundle 'tpope/vim-bundler'
 Bundle 'tpope/vim-rake'
 Bundle 'tpope/vim-fireplace'
 Bundle 'tpope/vim-classpath'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-vividchalk'
 
 Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
-
 Bundle 'cdadia/vim-cdadia'
 filetype plugin indent on
