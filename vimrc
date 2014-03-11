@@ -33,6 +33,7 @@ Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'derekwyatt/vim-sbt'
 Bundle 'Shougo/neocomplcache'
 Bundle 'majutsushi/tagbar'
+Bundle 'gregsexton/Vomodoro'
 
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-abolish'
