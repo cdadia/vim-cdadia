@@ -15,9 +15,6 @@ Bundle 'mpilquist/vim-scala'
 Bundle 'sjl/gundo.vim'
 Bundle 'guns/vim-clojure-static'
 
-Bundle 'cdadia/vim-cdadia'
-Bundle 'mpilquist/vim-mpilquist'
-
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
@@ -48,5 +45,7 @@ Bundle 'tpope/vim-vividchalk'
 
 Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
+
 Bundle 'cdadia/vim-cdadia'
+Bundle 'mpilquist/vim-mpilquist'
 filetype plugin indent on
