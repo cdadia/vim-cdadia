@@ -1,6 +1,19 @@
 " Backspace over anything
 set backspace=indent,eol,start
 
+" split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+
+" Enable folding with the spacebar
+nnoremap <space> za
+
 " Use 2-space tabs
 set softtabstop=2
 set shiftwidth=2

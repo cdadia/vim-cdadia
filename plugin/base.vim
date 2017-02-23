@@ -85,8 +85,5 @@ command! -bang WQ wq<bang>
 " Disable startup message
 set shortmess+=I
 
-" Enable NeoComplCache
-let g:neocomplcache_enable_at_startup = 1
-
 " Highlight characters beyond 80
 execute "set colorcolumn=" . join(range(81,335), ',')

@@ -1,4 +1,4 @@
-syntax on
+" syntax on
 set number
 
 " Show normal-mode commands as you type

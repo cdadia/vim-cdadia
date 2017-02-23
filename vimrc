@@ -11,6 +11,9 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'mpilquist/vim-scala'
+Bundle 'tmhedberg/SimpylFold'
+Bundle 'vim-scripts/indentpython.vim'
+Bundle 'scrooloose/syntastic'
 
 Bundle 'sjl/gundo.vim'
 Bundle 'guns/vim-clojure-static'
@@ -28,7 +31,6 @@ Bundle 'vim-scripts/copy-as-rtf'
 Bundle 'vim-scripts/camelcasemotion'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'derekwyatt/vim-sbt'
-Bundle 'Shougo/neocomplcache'
 Bundle 'majutsushi/tagbar'
 Bundle 'gregsexton/Vomodoro'
 
@@ -46,6 +48,10 @@ Bundle 'tpope/vim-vividchalk'
 Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 
+Bundle 'Valloric/YouCompleteMe'
+
 Bundle 'cdadia/vim-cdadia'
 Bundle 'mpilquist/vim-mpilquist'
+Bundle 'nvie/vim-flake8'
+Bundle 'tpope/vim-surround'
 filetype plugin indent on
