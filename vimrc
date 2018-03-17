@@ -13,8 +13,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'mpilquist/vim-scala'
 Bundle 'tmhedberg/SimpylFold'
 Bundle 'vim-scripts/indentpython.vim'
-Bundle 'scrooloose/syntastic'
-
+Bundle 'vim-syntastic/syntastic'
 Bundle 'sjl/gundo.vim'
 Bundle 'guns/vim-clojure-static'
 
