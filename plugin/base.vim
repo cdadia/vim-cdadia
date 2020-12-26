@@ -86,4 +86,4 @@ command! -bang WQ wq<bang>
 set shortmess+=I
 
 " Highlight characters beyond 80
-execute "set colorcolumn=" . join(range(81,335), ',')
+" execute "set colorcolumn=" . join(range(81,335), ',')

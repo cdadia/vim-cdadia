@@ -21,4 +21,9 @@ augroup END
 highlight OverLength ctermbg=Magenta ctermfg=white guibg=#592929
 match OverLength /\%141v./
 
+set background=dark
+" solarized options
+let g:solarized_termtrans=1
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
 colorscheme solarized
